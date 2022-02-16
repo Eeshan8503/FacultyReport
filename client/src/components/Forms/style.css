@@ -1,0 +1,47 @@
+.container{ 
+    margin: 0% 0 0;
+    display: flex;
+    justify-content: center;
+}
+.gg{
+    padding: 5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: 1fr;
+    grid-template-rows: 2fr 2fr 2fr;
+    background-color: white;
+    filter: drop-shadow(1px 1px 15px white);
+}
+.gg input{
+    outline: none;
+    border: none;
+    border-bottom: 1px solid black;
+    background-color: transparent;
+    width: 75%;
+    font-size: 2em;
+    padding: 1%;
+}
+.gg option{
+    font-size: 1em;
+}
+.gg select{
+    margin-top: 5%;
+    font-size: 1.5em;
+    width: 10em;
+    padding: 1%;
+}
+label{
+    font-size: 2em;
+}
+.sbt-btn{
+    margin: 1em;
+    height: 5em;
+    width: 10em;
+    transition-duration: 0.5s;
+}
+.sbt-btn:hover{
+    transform: scale(1.1)
+}
+.gg input:focus{
+    border-bottom: 2px solid black;
+}
