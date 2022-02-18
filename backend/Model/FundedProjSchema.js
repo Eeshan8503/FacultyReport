@@ -2,25 +2,32 @@ const mongoose=require('mongoose');
 const {Schema}=mongoose;
 const FundedProjSchema=new mongoose.Schema({
     PI:{
-        type:String
+        type:String,
+        required:true
     },
     PIdept:{
-        type:String
+        type:String,
+        required:true
     },
     nameOfProject:{
-        type:String
+        type:String,
+        required:true
     },
     nameOfFundingAgency:{
-        type:String
+        type:String,
+        required:true
     },
-    typeOFfunding:{
-        type:String
+    typeOfFunding:{
+        type:String,
+        required:true
     },
     fundingAmount:{
-        type:String
+        type:String,
+        required:true
     },
     AcademicYear:{
-        type:String
+        type:String,
+        required:true
     }
 })
 
