@@ -1,7 +1,17 @@
 .container{ 
     margin: 0% 0 0;
-    display: flex;
+    
     justify-content: center;
+}
+
+
+.form{
+    padding: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
 }
 
 
@@ -45,24 +55,26 @@
     font-size: 2em;
     padding: 1%;
 }
+
 .gg option{
     font-size: 1em;
 }
+
 .gg select{
     margin-top: 5%;
     font-size: 1.5em;
     width: 10em;
     padding: 1%;
 }
+
 label{
     font-size: 1.8em;
 }
 
-
 .sbt-btn{
     margin: 1em;
-    height: 5em;
-    width: 10em;
+    height: 4em;
+    width: 8em;
     transition-duration: 0.5s;
 
 }

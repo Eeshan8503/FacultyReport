@@ -76,11 +76,12 @@ const FundedProForm = () => {
       />
 
       <div className="container-lg">
-
-        <div style={{ display: "flex", justifyContent: "center", marginTop:"40px" }}>
+       
+        <div  className="form">
+        <span style={{  textAlign:"center",padding:"20px", fontSize:"28px" }}>Submit Form  : </span>
+         
           <form onSubmit={importSheet}>
             <input name="file" type="file" />
-            <br />
             <input className="sbt-btn" type="submit" />
           </form>
         </div>
